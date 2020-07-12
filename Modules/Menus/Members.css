@@ -4,64 +4,42 @@
 /* Start */
 
 .membersWrap-2h-GB4 {
-
     min-width: 0px;
-
     right: -105px;
-
     transition: all 1s;
-
     max-width: 5px;
+	position: absolute;
 
 }
 
 .membersWrap-2h-GB4:before {
-
     font-family: "Font Awesome 5 Free";
-
     content: "\f0c0";
-
     display: inline-block;
-
     padding: 20px 65px 0px 25px;
-
     font-size: 20px;
-
     vertical-align: middle;
-
     font-weight: 900;
-
     background-color: grey;
-
     color: #ffffff;
-
     margin-top: 0px;
-
     border-top-left-radius: 10px;
-
     border-bottom-left-radius: 10px;
-
     height: 40px;
-
-                transition: all 1s;
+    transition: all 1s;
 
 }
 
 .membersWrap-2h-GB4:hover:before {
-
     padding: 20px 25px 0px 25px;
-
-                transition: all .7s;
+    transition: all .7s;
 
 }
 
 .membersWrap-2h-GB4:hover {
-
-    min-width: 240px;
-
+    min-width: 310px;
     right: 0px;
-
-                transition: all 1s;
+    transition: all 1s;
 
 }
 
