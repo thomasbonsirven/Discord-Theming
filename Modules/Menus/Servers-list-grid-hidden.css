@@ -1,0 +1,46 @@
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css);
+:root {
+	--columns:			3;							/* default:	3					(amount of servercolumns)																		*/
+	
+	--guildsize:		50;							/* default:	50					(serversize in pixel)																			*/
+	--guildgap:			3;							/* default:	3					(top/bottom gap between servers in pixel)														*/
+	
+	--aligndms:			0;							/* default:	0					(should DMs be aligned in columns: 0 = no, 1 = yes)												*/
+}
+
+/* Start Servers */
+#app-mount .wrapper-1Rf91z:after {
+    content: "Servers";
+    position: absolute;
+    left: -2px;
+    color: white;
+    z-index: 999;
+    padding: 5px 5px 100% 5px;
+    transition: all .6s .6s;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}
+
+#app-mount .wrapper-1Rf91z:hover:after {
+    padding-bottom:80px;
+    left: -30px;
+    transition:all .6s .3s;
+}
+
+.titleBar-AC4pGV:hover.typeMacOS-3EmCyP:hover, .titleBar-AC4pGV.typeMacOS-3EmCyP:hover .macButtons-2MuSAC:hover, .wrapper-1Rf91z:hover, .wrapper-1Rf91z:hover .unreadMentionsIndicatorTop-gA6RCh:hover, .wrapper-1Rf91z:hover .unreadMentionsIndicatorBottom-BXS58x:hover {
+    width: calc(1px * (var(--vguildsize) * var(--vcolumns) + 20 * (var(--vguildsize)/50) + 14 * (var(--vguildsize)/50) * (var(--vcolumns) - 1))) !important;
+	transition: width .4s .1s, height .4s .5s;
+	height: 100%;
+}
+
+.titleBar-AC4pGV.typeMacOS-3EmCyP, .titleBar-AC4pGV.typeMacOS-3EmCyP .macButtons-2MuSAC, .wrapper-1Rf91z, .wrapper-1Rf91z .unreadMentionsIndicatorTop-gA6RCh, .wrapper-1Rf91z .unreadMentionsIndicatorBottom-BXS58x {
+    width: 0px!important;
+	height: 0;
+	transition: width .4s .5s, height .4s .1s;
+
+}
+
+.base-3dtUhz.da-base {
+    width: 98%!important;
+    margin-left: auto;
+}

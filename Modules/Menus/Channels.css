@@ -1,61 +1,35 @@
 
-
-/* Import required file(s), dont touch/edit this */
 @import url("https://thomasbonsirven.github.io/Discord-Theming/Modules/Required/required.css");
-
-
-.sidebar-2K8pFh.da-sidebar {
-    margin-left: -240px;
-    transition: all 1s;
-	z-index: 99;
-	transition-delay: .6s;
+.children-19S4PO {
+    margin-left: 30%;
 }
-.sidebar-2K8pFh.da-sidebar:hover {
-    margin-left: 0px;
-    transition: all 1s;
-	z-index: 99;
 
-}
-.sidebar-2K8pFh.da-sidebar:before {
-    font-family: "Font Awesome 5 Free";
-    content: "\f0c0";
-    display: inline-block;
-    padding: 15px 26px 20px 20px;
-    font-size: 20px;
-    vertical-align: middle;
-    font-weight: 900;
-    background-color: grey;
-    color: #ffffff;
-    margin-top: 0px;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    height: 13px;
-    transition: all 1s;
+.sidebar-2K8pFh:after {
+    content: "Channels";
     position: absolute;
-    z-index: 99999;
-	left: -71px;
-	transition-delay: .6s;
-	
+    left: 17%;
+    color: white;
+    z-index: 999;
+    padding: 15px;
+    top:0;
+    transition:all .6s 1.2s;
 }
-.sidebar-2K8pFh.da-sidebar:hover:before {
-    left:0;
-    transition: all 1s;
-    z-index: 99999;
-	
-}
-.chat-3bRxxu {
-    min-width: 100%;
-	min-height: 100%;
-	position:absolute;
-	z-index: 9;
-}
-form.form-2fGMdU.da-form {
-    position: relative;
+.sidebar-2K8pFh:hover:after {
+    padding-bottom:80px;
+    top:-80px;
+    transition:all .6s .3s;
 }
 
+.sidebar-2K8pFh:hover {
+    width: 240px;
+    transition: width .4s .1s, height .4s .5s;
+    height: 100%;
+}
 
-.content-98HsJk {
-    margin-left: 72px;
+.sidebar-2K8pFh {
+    width: 0;
+    transition: width .4s 1.2s, height .4s .8s;
+	height: 0;
 }
 
 
