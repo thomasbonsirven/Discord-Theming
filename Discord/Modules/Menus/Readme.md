@@ -27,3 +27,6 @@
 ### Effect
  - Transform the fix menu to Roll up to down, list channels
 
+# Credits 
+
+#### DevilBro for 3 cols Server list https://betterdiscordlibrary.com/themes/Server%20Columns
